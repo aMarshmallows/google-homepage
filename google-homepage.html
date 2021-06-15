@@ -1,49 +1,72 @@
-<style>
-    .background {
-        display:flex;
-        flex-direction:column;
-        height:100%
-    }
+<html>
+    <head>
+        <style>
 
-    .full_width {
-        flex-shrink:0;
-        box-sizing:border-box;
-    }
-    .navbar {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 50px 50px;
-        flex-direction: row;
-        font-size: 14px;
-        font-family: Roboto,arial,sans-serif;
-        color: #222;
-        padding: 10px;
-        align-items: center;
-        margin: 0 5px;
-    }
+            header {
+                display: flex;
+                flex-direction: row;
 
-    a.navbar:first-of-type{
-        margin-left:15px
-    }
+            }
+        
+        
+            .navbar {
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                font-size: 14px;
+                font-family: Roboto,arial,sans-serif;
+                color: #222;
+            }
 
-    .inner_nav {
-        position: absolute; 
-        display: grid;
-        grid-template-columns: 50px 50px;
-        grid-template-rows: 50px;
-        width: 200px; 
-        transition: height 0.3s ease-in-out 0s; 
-        right: 0px; 
-    }
+            a {
+                margin: 0 5px;
 
-</style>
+            }
+        
+            a.navbar:first-of-type{
+                margin-left:15em;
+            }
+        
+            a:hover{
+            text-decoration: underline;
+            }
 
-<div class="navbar">
-    <a>About </a>
-    <a>Store</a>
-    <div class="inner_nav">
-        <a>Gmail</a>
-        <a>Images</a>
-    </div>
-    
-</div>
+            .left_nav {
+                order: 1;
+                
+            }
+        
+            .right_nav { 
+                order: 2;
+                justify-content: flex-end; 
+                transition: height 0.3s ease-in-out 0s; 
+            }
+        
+        </style>
+
+    </head>
+    <header>
+        <div class="navbar">
+            <div class="left_nav">
+                <a>About </a>
+                <a>Store</a>
+            </div>
+            <div class="right_nav">
+                <a>Gmail</a>
+                <a>Images</a>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <body>
+
+    </body>
+</html>
+
+
