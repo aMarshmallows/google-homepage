@@ -1,136 +1,31 @@
 <html>
     <head>
-        <style>
-
-            .sprite_carbon_neutral_leaf {
-                width: 21px; height: 24px;
-                background: url('image/css_sprites.png') -136px -122px;
-            }
-
-            .sprite_google {
-                width: 272px; height: 92px;
-                background: url('image/css_sprites.png') -10px -10px;
-            }
-
-            .sprite_menu_icon {
-                width: 32px; height: 32px;
-                background: url('image/css_sprites.png') -84px -122px;
-            }
-
-            .sprite_microphone_resized {
-                width: 54px; height: 70px;
-                background: url('image/css_sprites.png') -10px -122px;
-            }
-
-            body {
-                background-color: antiquewhite;
-                display: flex;
-                flex-direction: column;
-            }
-
-            header {
-                background-color: aquamarine;
-                display: flex;
-                flex-direction: row;
-
-            }
-
-            div {
-                display: flex;
-}
-        
-        
-            .navbar {
-                padding: 10px;
-                display: flex;
-                flex-direction: row;
-                width: 100%;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 14px;
-                font-family: Roboto,arial,sans-serif;
-                color: #222;
-            }
-
-            a {
-                margin: 0 5px;
-
-            }
-        
-            a.navbar:first-of-type{
-                margin-left:15em;
-            }
-        
-            a:hover{
-            text-decoration: underline;
-            }
-
-            .left_nav {
-                order: 1;
-                
-            }
-        
-            .right_nav { 
-                order: 2;
-                align-items: center;
-            }
-
-            main{
-                background: teal;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                position: relative;
-                padding-top: 220px;
-            }
-
-            .search {
-                background:#202124;
-                display:flex;
-                border:1px solid #5f6368;
-                box-shadow:none;
-                border-radius:24px;
-                height:44px;
-                margin:0 auto;
-                justify-content: center;
-                width:auto;
-            }
-
-            form {
-                display: flex;
-                align-items: center;
-            }
-
-            footer {
-                background-color: pink;
-                display: flex;
-                flex-direction: row;
-                
-            }
-        
-        </style>
+        <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         <header>
             <div class="navbar">
+
                 <div class="left_nav">
                     <a>About </a>
                     <a>Store</a>
                 </div>
+
                 <div class="right_nav">
                     <a>Gmail</a>
                     <a>Images</a>
                     <a></a> 
                     <div class="sprite_menu_icon"></div>
+
                 </div>
+
             </div>
         </header>
         <main>
             <div>
                 <img src="image/google.svg" alt="Google Logo"></img>
-            <div>
+            </div>
             <div class="search">
                 <form>
                     <input>
@@ -138,6 +33,7 @@
             </div>
         </main>
         <footer>
+            <div></div>
 
         </footer>
         
