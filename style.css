@@ -1,6 +1,7 @@
+
 .sprite_carbon_neutral_leaf {
     width: 21px; height: 24px;
-    background: url('image/css_sprites.png') -136px -122px;
+    background: url('image/css_sprites.png') -131px -122px;
 }
 
 .sprite_google {
@@ -8,14 +9,20 @@
     background: url('image/css_sprites.png') -10px -10px;
 }
 
+.sprite_microphone {
+    width: 54px; height: 40px;
+    background: url('image/css_sprites.png') -10px -137px;
+}
+
 .sprite_menu_icon {
-    width: 32px; height: 32px;
+    width:27px; height: 27px;
     background: url('image/css_sprites.png') -84px -122px;
 }
 
-.sprite_microphone_resized {
-    width: 54px; height: 70px;
-    background: url('image/css_sprites.png') -10px -122px;
+.sprite_search {
+    width: 25px; height: 17px;
+    background: url('image/css_sprites.png') -172px -122px;
+
 }
 
 body {
@@ -72,12 +79,11 @@ text-decoration: underline;
 }
 
 main{
-    background: pink;
+    background:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     padding-top: 220px;
 }
 
@@ -85,9 +91,11 @@ main{
     width: 50vw;
     max-width: 500px;
     height: 40px;
+    align-items: center;
+    justify-content: left;
     border: 1px solid #e1e1e1;
     border-radius: 50px;
-    padding: 0 40px;
+    padding: 0px 8px 0px 8px;
     font-size: initial;
     margin: 20px;
 }
@@ -98,19 +106,20 @@ main{
 }
 
 form {
-    display: flex;
-    align-items: center;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    display: flex;
+    margin: 0px;
 }
 
 input {
-    display: flex;
     width: 100%;
     height: 100%;
     background-color: transparent;
+    display: flex;
     border: 0;
     padding: 0;
+    margin: 0px;
     outline: none;
 }
 
